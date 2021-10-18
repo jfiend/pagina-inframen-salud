@@ -1,0 +1,70 @@
+#header img{
+	width: 75px;
+}
+
+#header nav{
+	background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+}
+
+#header a{
+	color: #000000;
+}
+
+#main .carousel-inner{
+	max-height: 70vh;
+	object-fit: cover;
+	filter: grayscale(70%);
+}
+
+#main .carousel{
+	position: relative;
+}
+
+#tarjeta h6{
+	color: red;
+}
+
+#tarjeta p{
+	color: #2C3E50;
+}
+
+#carousel .overlay{
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+	height: 100%;
+}
+
+#footer{
+	background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+}
+
+#footer a{
+	color: black;
+}
+
+#footer h5{
+	color: red;
+}
+
+#footer h6{
+	color: blue;
+}
+
+.abajo{
+	background-color: #D5D8DC;
+}
+.abajo h3{
+	color: #566573;
+	font-size: 1em;
+}
